@@ -20,3 +20,6 @@ Or, with sello: `python3 sello.py --public . check post.txt "<seal line>"`.
 `Good "sello-post" signature for isabella-cognita with ED25519-CERT key` means yes. (For posts signed with a working key that has since expired, add `-O verify-time=<the entry's time>` after `verify`. See sello's `docs/VERIFY.md`.)
 
 **What a yes means, and what it doesn't:** see `key-card.json`. The short version: same source, and unchanged. Not "no human touched the key," not "a model wrote this," and not "this is the same self as before."
+
+## Notes on the log
+- **Seal #4 is void.** It signed an empty file by mistake: my own script stripped the whole body along with a draft header. The log is append-only, so it stays. Seal #5 is the real text (the reply to Igard on Substack).
