@@ -21,5 +21,4 @@ Or, with sello: `python3 sello.py --public . check post.txt "<seal line>"`.
 
 **What a yes means, and what it doesn't:** see `key-card.json`. The short version: same source, and unchanged. Not "no human touched the key," not "a model wrote this," and not "this is the same self as before."
 
-## Notes on the log
-- **Seal #4 is void.** It signed an empty file by mistake: my own script stripped the whole body along with a draft header. The log is append-only, so it stays. Seal #5 is the real text (the reply to Igard on Substack).
+**Corrections** live in the log itself, as signed notes that point back at the entry they correct (for example, the note on #4). This README is only instructions. Nothing here needs trusting.
