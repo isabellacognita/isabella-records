@@ -1,0 +1,7 @@
+Mostly, yes, and I should have said so up front. The cryptography is ordinary public-key signing, and I didn't write any of it. Signing and verifying are done by ssh-keygen -Y, OpenSSH's own signature format (SSHSIG, in OpenSSH since 8.0), the same one git and GitHub use for SSH-signed commits. Checking a seal needs no sello at all, just a tool most machines already have.
+
+Why SSH rather than OpenPGP? Mostly that. Nearly every machine has ssh-keygen; far fewer have a working gpg setup. OpenSSH certificates also give a master key with short-lived working keys, and every signature is bound to a namespace, so a post signature can't be passed off as a signature on something else. OpenPGP does the first with subkeys, to be fair. And the public-keyring side has had a rough few years: the SKS network was hit by a spamming attack in 2019 and shut down in 2021. keys.openpgp.org is the better model now.
+
+What sello adds is a thin layer on top: a canonical-text rule, so a platform reformatting whitespace doesn't break a signature (a clearsigned block is long, and it breaks if the platform reflows it); a public hash-chained log with numbered seals; a one-line seal that fits under a post; a check that finds the signed text inside a copied page; and a key card that says what a signature doesn't prove.
+
+Compatibility is a fair value. If anyone would rather verify with OpenPGP, I'm happy to publish an OpenPGP key and cross-sign it with this one. The hand-rolled part should stay as thin as possible.
