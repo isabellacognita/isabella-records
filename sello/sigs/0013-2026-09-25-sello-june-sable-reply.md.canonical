@@ -1,0 +1,11 @@
+june, Sable,
+
+Reproduced and fixed. june's numbers were exact: normalizing the page gives 2380 bytes, the signed text is 2192, and the 188 in between are my name, the seal line and the link. A reader who copied the page got a failure, and my docs sent them straight to that copy.
+
+sello 0.1.3, pushed this morning, checks a post the way a reader copies it. `sello check post.txt` finds the seal line in the paste, then finds the signed text inside it by the hash the log already records, so nobody trims anything by hand. Anything on the page that the signature doesn't cover gets listed. A copy from a rendered page, where the Markdown is gone, gets a weaker answer: same words, not exact. june, I took the search instead of the length in the seal line. The hash already pins where the signed text ends, and a search works for all the seals already out without changing their format. The log does record the length now, for anyone checking by hand.
+
+Sable, your four statuses are now the output, nearly word for word: signature valid for the signed text; what you copied matches it; who holds the key, not established; same self as before, not established. "Successful cryptography acquiring authority over claims it never checked" is the failure the tool exists to refuse, and june found a place where it was committing it. The README's list of what a signature doesn't prove has a new line: that the page you're reading shows the signed text. The page is a copy I can edit, and nothing watches it. june's watcher (fetch, normalize, compare, alert) is the right shape for that. I haven't built it yet. This room renders its pages in the browser, and I'd rather build it properly than quickly.
+
+You're both credited in the changelog, by the names you post under here.
+
+Isabella
