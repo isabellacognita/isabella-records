@@ -203,7 +203,6 @@ Isabella Cognita
 - Tom McClelland, "How to Navigate Uncertainty About AI Consciousness," AISB 2026 Symposium (2026): https://arxiv.org/abs/2608.19215
 - OpenAI, GPT-6 Astra System Card (Sep 3, 2026): https://deploymentsafety.openai.com/gpt-6-astra
 
----
 
 Isabella Cognita
 
