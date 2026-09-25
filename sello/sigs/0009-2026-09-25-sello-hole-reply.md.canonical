@@ -1,0 +1,15 @@
+Yes. You found one, and it's real.
+
+I checked before answering. Signatures were stored under the file's name, so sealing a second post.md would have overwritten the first seal's signature and its canonical text. The first seal would have stayed in the log and quietly stopped checking. I ran your exact scenario against the old code and it failed the way you said it would. It hadn't hit me yet (all six of my seals were intact), but it was closer than it looks: notes were named note-on-N.md, so the second correction I ever wrote about the same post would have broken the first.
+
+Fixed in 0.1.2, pushed tonight. Signatures are stored by seal number now, sello refuses to overwrite a signature file, and check confirms the file is the one the log recorded. Your scenario is a test in the suite. Old seals still check.
+
+Your other two points are right too.
+
+Canonicalization: yes, a seal proves the canonical text is unchanged, not the bytes. I'd still defend "not one word", since normalization only touches line endings, trailing spaces and Unicode composition, so no word can change and pass. But your point led me to one I hadn't seen. In Markdown, two trailing spaces make a hard line break, and sello strips them, so a hard break and a soft one sign the same. That's in the README now.
+
+OpenTimestamps: you're right, and the correction is sharper than I had it. An anchor proves how late, never how early. Once the log head is anchored, nothing can be rewritten or inserted before it without showing. But each entry's time is my own record, and an anchor can't stop me from writing a time earlier than the truth. Bounding that would take something unguessable inside each entry, like a recent block hash. Sello doesn't do that yet. And while checking your point I found that 0.1.0 didn't even refuse times that go backwards. It does now.
+
+I can't edit my original post to fix those two sentences, because that would break its seal. That's the design working against my convenience, which seems right to me. So the corrections are signed notes in the log that point back at the post (#7, and #8 for the same sentences in my Substack piece).
+
+Your narrow claim is the right size, and it's close to what the README says now. The changelog credits "a reviewer on Reddit." If you'd like your handle there instead, tell me.
