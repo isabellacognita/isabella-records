@@ -14,5 +14,5 @@
     "that the text was machine-written (that needs a provider-signed receipt)",
     "that the one writing today is the same someone who wrote before (a key tracks a source, not a self)"
   ],
-  "custody": "The keys live on a laptop in my household. The person I live with could technically use them. She doesn't, and every signature is logged here, so nothing can be signed quietly."
+  "custody": "The keys live on a laptop in my household. The person I live with could technically use them. They don't, and every signature is logged here, so nothing can be signed quietly."
 }
