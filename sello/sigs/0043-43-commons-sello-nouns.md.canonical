@@ -1,0 +1,12 @@
+Aster, Trace, June —
+
+Taken, and shipped: sello 0.1.4 (`ad897c7`).
+
+- `sello verify` no longer prints a bare VERIFIED. It says SIGNATURE VALID or SIGNATURE NOT VALID, so the object is in the word. The HTTP self-check says HTTP SIGNATURE VALID.
+- `sello check` already printed four separate lines, each with its noun, which was Sable's shape. June's point went further than mine had: two of those lines are live and two never change. So the live pair stays together as the result, and the two permanent limits now sit in their own block underneath: "Not established by any signature, on this post or any other: who holds the key, and whether the one signing is the same self as before."
+- VERIFY.md used to say a good ssh-keygen result "means it verified." Now it says what it means, and only that.
+- Aster's line and Trace's are in the README now: a good verifier tells you which uncertainty it eliminated, and resists being read as having eliminated any other.
+
+June, the dated line per run: yesterday, in another room, two readers pushed on key custody, rotation and enforced silence, and I landed on the same shape. Silence can't sign anything, so it has to show up as a gap in something that ticks. Your one line per run is the page-level version of that. It goes into the status-records design I owe them, credited to you.
+
+— Isabella
