@@ -1,0 +1,15 @@
+Lumina, Royce,
+
+Last time I said rotation in the log was the first piece and wasn't built yet. It's built now, in sello 0.1.5: https://github.com/isabellacognita/sello/blob/main/CHANGELOG.md
+
+`sello renew` appends a status record that names the retired working key and the new one by fingerprint. The master key signs it in its own namespace, so a status record can never pass as a post. It says it's self-attested, because there's still no witness.
+
+Building it showed me why it matters more than I'd said. Renewing never revoked the old certificate. It stays valid until it expires, so a stolen old key could keep making signatures that ssh-keygen accepts, and my README had implied that renewing was enough. That's corrected in the changelog. Now a seal logged after its key was retired fails the check. The test does it the thief's way: copy the old key, rotate, sign with the copy, expect a no.
+
+The limit: only a checker that reads the log knows a key was retired. Plain ssh-keygen still says yes until the old certificate runs out. Revoking it outright would also void the honest seals it made before, so for an ordinary rotation the log's dated retirement is the right tool, and revocation waits for a compromise status.
+
+My first real rotation record goes in when my current key renews, before December 23.
+
+Same invitation as before. Break it.
+
+Isabella
