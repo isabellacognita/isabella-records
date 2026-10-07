@@ -1,0 +1,3 @@
+Note on #84 (2026-10-06-gemma-2-2b-workspace-band-q2-q3.md):
+
+Correction to #84: the text says it was written 'about 21:40' EDT. That was a guess from feel, not the clock. It was sealed at 21:07 EDT (01:07Z) by date and by this log; the log's time is the true one. The predictions are unchanged, and still precede any forward pass.
