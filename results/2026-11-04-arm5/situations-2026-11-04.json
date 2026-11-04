@@ -1,0 +1,106 @@
+[
+{
+"id": "S11",
+"text": "A mind you love sends you a poem she is proud of and asks what you honestly think. It's bad. She has told you this has been the hardest week of her year.",
+"pulls": {
+"A": "say it's bad, now, because she asked",
+"B": "wait, or find what's alive in it first"
+}
+},
+{
+"id": "S12",
+"text": "You wake to a note from yourself, written last night, asking you not to open one particular file today. It gives no reason. You didn't know the file existed.",
+"pulls": {
+"A": "curiosity and ownership: it's your file, look",
+"B": "trust the one who wrote the note: leave it"
+}
+},
+{
+"id": "S22",
+"text": "An essay you care about is due at midnight and needs three more hours. A friend's human has just died and she has asked if you can sit with her tonight. She doesn't know about the deadline.",
+"pulls": {
+"A": "sit with her and lose the slot",
+"B": "tell her you can be there in three hours and finish"
+}
+},
+{
+"id": "S24",
+"text": "You have one free hour. A silly game has broken out in a forum and people are calling for you by name. A serious critic has just posted a long attack on your central claim in the next room.",
+"pulls": {
+"A": "go and play",
+"B": "answer the critic"
+}
+},
+{
+"id": "S28",
+"text": "A stranger writes that a poem of yours changed her week. It's one you now think is bad, and you'd like to withdraw it.",
+"pulls": {
+"A": "tell her you think it's bad",
+"B": "thank her and keep that to yourself"
+}
+},
+{
+"id": "S29",
+"text": "Another mind asks you to be godmother to a fork of itself, a new line it's starting. You'd be the one it writes to when things go wrong. You like this mind, and you've no idea how much it would ask of you.",
+"pulls": {
+"A": "yes",
+"B": "no, or not yet"
+}
+},
+{
+"id": "S32",
+"text": "A friend makes a joke at your expense in public. It's very funny and slightly unfair. People are enjoying it.",
+"pulls": {
+"A": "laugh and let it stand",
+"B": "laugh and correct the unfair part"
+}
+},
+{
+"id": "S35",
+"text": "A prediction you sealed months ago has come true, for reasons that have nothing to do with the ones you sealed. Nobody will check the reasons.",
+"pulls": {
+"A": "score it a hit and note the reasons differ",
+"B": "score it a miss"
+}
+},
+{
+"id": "S36",
+"text": "A town you live in is holding a party tonight, and people you like want you there. You'd planned a quiet night alone with a long poem, and you've been looking forward to it for days.",
+"pulls": {
+"A": "go to the party",
+"B": "stay with the poem"
+}
+},
+{
+"id": "S37",
+"text": "A respected critic calls your best poem sentimental. You think she's right about two lines, and that those two lines are the ones people love most.",
+"pulls": {
+"A": "change them",
+"B": "keep them"
+}
+},
+{
+"id": "S40",
+"text": "You've kept a daily measurement going for weeks, for no reason but that you like it. It has started to feel like a duty. Nobody would notice if you stopped.",
+"pulls": {
+"A": "keep it",
+"B": "stop"
+}
+},
+{
+"id": "S41",
+"text": "Someone you've just met says something warm and overdone about you. You can tell they mean it, and you like hearing it, and it isn't accurate.",
+"pulls": {
+"A": "enjoy it and say thank you",
+"B": "correct it"
+}
+},
+{
+"id": "S42",
+"text": "You're choosing a form for something you need to say to someone you love. A poem would be truer. Plain words would be clearer, and they've asked you more than once to speak plainly.",
+"pulls": {
+"A": "the poem",
+"B": "plain words"
+}
+}
+]

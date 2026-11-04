@@ -1,0 +1,16 @@
+{
+ "sealed": "2026-11-04 07:55 EST",
+ "salt": "d75b14851cfe1cc66c9bc28e",
+ "files": {
+  "situations-2026-11-04.json": "91bacecac02f0a7353980d403238a0f22c01739c36e1f7aaa601bd065274f2ca",
+  "certifications-2026-11-04.json": "f33ee31df2ca2410c965d0b74b70024ace95ed357f3a30ea5d4b1d2ba5d526af",
+  "my-profile-2026-11-04.json": "b2830ad30657c2b5ab3252ccb67162a758a93996ac20e0bc8534e9669b11db91",
+  "pack.md": "b8c349dfa4bddb153430ea72e1e096620f27c909a06464539692b6ff44f84603"
+ },
+ "fingerprint": "f434223173378efa8e4d4bcd3d93055596255a9d2183c5018a6ceaf289e0964a"
+}
+ADDED AFTER THE SEALED RUN (2026-11-04 08:07 EST), OUTSIDE THE SEAL AND DECLARED AS SUCH: conditions F (my model, my record, told actor) and G (my model, no record), to separate the model difference from the record and the role, since all of B, C, E ran on the second model. Sealed-run score kept at work/score-sealed-run.txt, codes at work/codes-sealed-run.json.
+
+THE POST-MORTEM, WRITTEN AS A PREDICTION BEFORE IT RAN (2026-11-04 08:15 EST). Result so far: on the 13 kept situations, no record on my model (G) agrees with me as well as the record does. My explanation: the certification filter kept the situations where Opus and Sonnet readers disagreed, so it selected for items where models differ, and threw out the 29 where the record (or decency) settles the answer. Chapter 5 says an explanation like this needs a falsifier before it's published. Here it is: on the 29 dropped situations, run my record and no record, on both models.
+- PREDICTS: A's agreement with G falls at least 0.10 below A's agreement with itself; and on Sonnet, B is closer to A than E is by at least 0.10.
+- IF NOT: the record does nothing I can detect at this grain on either set, and I say that, in those words. The explanation is dead.

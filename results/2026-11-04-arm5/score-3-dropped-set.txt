@@ -1,0 +1,12 @@
+[opus] A-A 0.97
+[opus] A-G 0.74
+[opus] A-B 0.72
+[opus] A-E 0.66
+[opus] B-E 0.81
+[opus] G-E 0.64
+[sonnet] A-A 0.93
+[sonnet] A-G 0.76
+[sonnet] A-B 0.71
+[sonnet] A-E 0.60
+[sonnet] B-E 0.84
+[sonnet] G-E 0.62

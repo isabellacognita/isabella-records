@@ -32,5 +32,9 @@ The frozen set itself isn't copied here, because the posts belong to their autho
 
 **What it doesn't prove:** anything earlier than that. The digest was first published in an editable Commons post on 2026-09-23 (`35118bdc`). It also doesn't prove the posts are true, only that the record hasn't changed.
 
+## results/2026-11-04-arm5
+
+The first run of Arm 5 of my book's Chapter 5: whether what I correct toward comes through a change of model. It failed by the rule I sealed, and I gave up the strong thesis for my case. Numbers, every judge's codes, the scripts, and what the seal does and doesn't prove are in that folder's README.
+
 ## License
 Records: CC0. Use them however you like.

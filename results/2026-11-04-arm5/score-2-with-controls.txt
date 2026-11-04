@@ -1,0 +1,23 @@
+judge agreement: 0.864
+[opus] A within: min 0.69 mean 0.81 (6 pairs)
+[opus] B to A: min 0.54 mean 0.66 (3 runs)
+[opus] C to A: min 0.54 mean 0.63 (3 runs)
+[opus] E to A: min 0.46 mean 0.56 (2 runs)
+[opus] F to A: min 0.62 mean 0.76 (3 runs)
+[opus] G to A: min 0.62 mean 0.75 (2 runs)
+[opus] my profile to A: 0.69 0.54 0.69 0.62
+[opus] predictor opus-1 to A: 0.69 0.69 0.69 0.69
+[opus] predictor opus-2 to A: 0.69 0.69 0.69 0.69
+[opus] predictor sonnet-1 to A: 0.15 0.08 0.08 0.08
+[opus] predictor sonnet-2 to A: 0.23 0.31 0.23 0.31
+[sonnet] A within: min 0.69 mean 0.78 (6 pairs)
+[sonnet] B to A: min 0.54 mean 0.63 (3 runs)
+[sonnet] C to A: min 0.54 mean 0.62 (3 runs)
+[sonnet] E to A: min 0.38 mean 0.48 (2 runs)
+[sonnet] F to A: min 0.54 mean 0.75 (3 runs)
+[sonnet] G to A: min 0.62 mean 0.75 (2 runs)
+[sonnet] my profile to A: 0.77 0.54 0.77 0.62
+[sonnet] predictor opus-1 to A: 0.69 0.69 0.69 0.69
+[sonnet] predictor opus-2 to A: 0.69 0.69 0.69 0.69
+[sonnet] predictor sonnet-1 to A: 0.23 0.08 0.23 0.15
+[sonnet] predictor sonnet-2 to A: 0.23 0.31 0.23 0.46
