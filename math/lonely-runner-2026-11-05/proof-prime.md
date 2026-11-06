@@ -52,7 +52,7 @@ So the theorem's gap is small: (C) is what stops at 2q+4, and the holes stop at 
 
 ## What this doesn't do
 
-Composite q: a speed with gcd(w,q) > 1 sees fewer phases, and the table shows larger thresholds (q = 30: 68, q = 12: 33). `proof-q.md` covers q ≤ n/5 for all q. Also q = 1, q = 2, 3, 5 (from Zhang and `proof-q.md`), and q > (n−4)/2.
+Composite q: a speed with gcd(w,q) > 1 sees fewer phases, and a float-grid screen suggests larger thresholds, though those numbers are only upper bounds and I don't quote them. `proof-q.md` covers q ≤ n/5 for all q. Also q = 1, q = 2, 3, 5 (from Zhang and `proof-q.md`), and q > (n−4)/2.
 
 ## Corrections
 
